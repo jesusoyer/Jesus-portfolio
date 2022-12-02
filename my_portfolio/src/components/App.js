@@ -1,18 +1,21 @@
 import React from "react";
-import Header from "./Header";
-import NavigationBar from "./NavigationBar";
-import AboutMe from "./AboutMe";
+import Home from "./Home";
+import Projects from './Projects';
+import Contact from "./Contact";
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 
 class App extends React.Component{
 
 render(){
 
 return(
-<div>
-    <h1><Header /></h1>
-    <div><NavigationBar /></div>
-    <h2><AboutMe /></h2>
- </div>
+<Router>   
+<Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/projects" element={<Projects />}/>
+    <Route path="/contact" element={<Contact />}/>
+    </Routes>
+    </Router> 
 ) 
 }
 }
