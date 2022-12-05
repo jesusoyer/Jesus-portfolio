@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./Home";
-import Projects from './Projects';
-import Contact from "./Contact";
+import Projects from './ProjectsComponents/Projects';
+import Contact from "./ContactComponents/Contact";
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 
 class App extends React.Component{

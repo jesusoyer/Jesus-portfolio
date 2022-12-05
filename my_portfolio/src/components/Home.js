@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
-import AboutMe from "./AboutMe";
-import NavigationBar from "./NavigationBar";
+import AboutMe from "./HomePageComponents/AboutMe";
+import NavigationBar from "./NavigationBar"
 
 class Home extends React.Component{
 
