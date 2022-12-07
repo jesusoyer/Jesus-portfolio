@@ -1,5 +1,12 @@
 .ui.grid{
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
-
+.ui.segment{
+    height: 50%;
+    width: 100%;
+}
+.testImages{
+    height: auto;
+    width: 100%;
+}

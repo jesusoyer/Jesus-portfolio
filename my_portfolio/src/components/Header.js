@@ -4,7 +4,7 @@ class Header extends React.Component{
 
     render(){
         return(
-            <div class="ui huge header" style={{marginTop:'2%',fontFamily:'Old Standard TT,serif ',fontSize:'2em'}}>JO</div>
+            <div class="ui huge header" style={{marginTop:'2%',fontFamily:'Old Standard TT,serif ',fontSize:'2em'}}>Jesus Oyervides</div>
         )
 
     }
