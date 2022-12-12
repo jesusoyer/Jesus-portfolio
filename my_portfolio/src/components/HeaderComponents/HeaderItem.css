@@ -1,0 +1,66 @@
+.header{
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+
+
+}
+.row{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 5%;
+    text-align: center;
+}
+.linkedInNavImage{
+border-radius: 1px;
+width: 20px;
+}
+.gitHubNavImage{
+    border-radius: 1px;
+    width: 20px;
+    }
+
+.emailImage{
+    border-radius: 1px;
+
+    width: 20px;
+}
+
+.ui.button{
+    padding: 0em;
+}
+.ui.modal{
+background: none;
+
+}
+
+.modal{
+    left:10%;
+}
+
+.ui.dimmer{
+   /* width:60%;
+   height: 100%; 
+   background-color: none;
+   margin-left: 20%;
+   transition: none; */
+}
+
+.ui.form{
+    
+}
+.contactMeLabel{
+    font-size: 20px;
+    margin-bottom:20px;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.ui.grid{
+    margin-top:none;
+}
+.ui.input{
+    margin-left: 12px;
+
+}
+.label{
+    text-align: center;
+}

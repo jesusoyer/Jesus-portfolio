@@ -1,7 +1,7 @@
 import React from "react";
-import NavigationBar from "../NavigationBar";
+import NavigationBar from "../NavigationComponents/NavigationBar";
 import ProjectGrid from "./ProjectGrid";
-import Header from "../Header";
+import Header from "../HeaderComponents/Header";
 
 
 class Projects extends React.Component{
