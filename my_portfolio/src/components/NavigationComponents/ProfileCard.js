@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
 const ProfileCard = () => (
-  <Card>
+  <Card className='mainCard'>
     <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Jesus Oyervides Jr</Card.Header>

@@ -4,6 +4,7 @@ import email from './navigationImages/emailImage.png';
 import { Button, Header,  Modal, Grid} from 'semantic-ui-react'
 import ContactForm from './ContactForm';
 import ProfileCard from './ProfileCard';
+import Proficiencies from './Proficiencies';
 
 function InfoModal() {
   const [open, setOpen] = React.useState(false)
@@ -16,14 +17,22 @@ function InfoModal() {
       trigger={<Button className='modalButton'><img src={email} className="emailImage"></img></Button>}
       className="mainModal"
     >
-      <Modal.Header>Contact Info</Modal.Header>
+         <Modal.Actions>
+        <Button color='red' onClick={() => setOpen(false)}>
+          X
+        </Button>
+      </Modal.Actions>
+      <Modal.Header>My Info</Modal.Header>
       <Modal.Content >
-      <Grid divided='vertically'>
-    <Grid.Row columns={2} >
-      <Grid.Column width={8} >
+      <Grid divided columns={3} padded={'vertically'}>
+    <Grid.Row  className='gridRow'>
+      <Grid.Column width={5} >
       <ProfileCard />
       </Grid.Column>
-      <Grid.Column width={8} >
+      <Grid.Column width={5} >
+        <Proficiencies />
+      </Grid.Column>
+      <Grid.Column width={5} >
         <ContactForm />
 
       </Grid.Column>
@@ -32,11 +41,7 @@ function InfoModal() {
 
         
       </Modal.Content>
-      <Modal.Actions>
-        <Button color='red' onClick={() => setOpen(false)}>
-          close
-        </Button>
-      </Modal.Actions>
+     
     </Modal>
   )
 }

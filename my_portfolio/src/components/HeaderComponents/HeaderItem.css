@@ -64,3 +64,13 @@ background: none;
 .label{
     text-align: center;
 }
+.gridRow{
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+
+}
+.ui.form textarea{
+    margin-left: 12px;
+
+}

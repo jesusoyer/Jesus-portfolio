@@ -3,22 +3,22 @@ import { Button,TextArea, Form } from 'semantic-ui-react'
 
 const ContactForm = () => (
   <Form>
-    <label className='contactMeLabel'>Contact Me</label>
+    <label className='contactMeLabel'>Message Me</label>
     <Form.Group  widths={0}>
-      <Form.Input label='Your First Name' placeholder='Your First Name' />
+      <Form.Input  placeholder='Your First Name' />
       
     </Form.Group>
     <Form.Group widths={0}>
-    <Form.Input label='Your Last name' placeholder='Last name' />
+    <Form.Input  placeholder='Your Last Name' />
     </Form.Group>
     <Form.Group widths={0}>
-      <Form.Input label='Your Email Address' placeholder='Email Address' />
+      <Form.Input  placeholder='Your Email Address' />
     </Form.Group>
     <Form.Field
       id='form-textarea-control-opinion'
       control={TextArea}
-      label='Message Me'
-      placeholder='message'
+      
+      placeholder='Message'
       
     />
    
